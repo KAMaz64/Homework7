@@ -44,8 +44,6 @@ int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("введите верхний предел нового масива: ");
 int max = Convert.ToInt32(Console.ReadLine());
 
-
-
 Console.WriteLine("Двумерный массив вещественных чисел");
 double[,] randomDoubleArray = CreateNewRandomDoubleArray(rows, columns, min, max);
 PrintArray(randomDoubleArray);
